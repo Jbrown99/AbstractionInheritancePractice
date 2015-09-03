@@ -9,13 +9,8 @@ package abstractioninheritancepractice;
  *
  * @author joshuabrown
  */
-public class Toaster {
+public class Toaster extends SmallAppliance {
 
-    /**
-     * @param args the command line arguments
-     */
-    public static void main(String[] args) {
-        // TODO code application logic here
-    }
+    
     
 }

@@ -9,6 +9,6 @@ package abstractioninheritancepractice;
  *
  * @author joshuabrown
  */
-public class Dragon {
+public class Dragon extends LegendaryCreature {
     
 }
