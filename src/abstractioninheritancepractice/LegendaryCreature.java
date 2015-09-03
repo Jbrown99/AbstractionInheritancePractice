@@ -9,6 +9,6 @@ package abstractioninheritancepractice;
  *
  * @author joshuabrown
  */
-public class LegendaryCreature {
+public abstract class LegendaryCreature implements Animal {
     
 }

@@ -11,4 +11,8 @@ package abstractioninheritancepractice;
  */
 public class Dragon extends LegendaryCreature {
     
+    public void eat(){
+        
+    }
+    
 }

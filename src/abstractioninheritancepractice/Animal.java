@@ -11,4 +11,6 @@ package abstractioninheritancepractice;
  */
 public interface Animal {
     
+    public void eat();
+    
 }
