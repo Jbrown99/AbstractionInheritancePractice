@@ -11,6 +11,30 @@ package abstractioninheritancepractice;
  */
 public class Dragon extends LegendaryCreature {
     
+    private String name;
+    private String specialAbility;
+
+    public String getName() {
+        return name;
+    }
+
+    public void setName(String name) {
+        this.name = name;
+    }
+
+    public String getSpecialAbility() {
+        return specialAbility;
+    }
+
+    public void setSpecialAbility(String specialAbility) {
+        this.specialAbility = specialAbility;
+    }
+    
+    
+    
+    
+    
+    
     public void eat(){
         System.out.println("The dragon is eating");
         

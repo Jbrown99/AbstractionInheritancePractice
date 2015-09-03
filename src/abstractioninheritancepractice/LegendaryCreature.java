@@ -11,4 +11,5 @@ package abstractioninheritancepractice;
  */
 public abstract class LegendaryCreature implements Animal {
     
+    
 }
