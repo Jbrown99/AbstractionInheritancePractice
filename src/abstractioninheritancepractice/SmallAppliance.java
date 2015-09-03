@@ -9,6 +9,28 @@ package abstractioninheritancepractice;
  *
  * @author joshuabrown
  */
-public class SmallAppliance {
+public abstract class SmallAppliance implements Appliance {
+    private String brandName;
+    private String modelNumber;
+
+    public String getBrandName() {
+        return brandName;
+    }
+
+    public void setBrandName(String brandName) {
+        this.brandName = brandName;
+    }
+
+    public String getModelNumber() {
+        return modelNumber;
+    }
+
+    public void setModelNumber(String modelNumber) {
+        this.modelNumber = modelNumber;
+    }
+    
+    
+    
+    
     
 }

@@ -11,4 +11,6 @@ package abstractioninheritancepractice;
  */
 public interface Appliance {
     
+    public void cook();
+    
 }

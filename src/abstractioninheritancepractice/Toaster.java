@@ -10,6 +10,10 @@ package abstractioninheritancepractice;
  * @author joshuabrown
  */
 public class Toaster extends SmallAppliance {
+    
+    public void cook(){
+        System.out.println("The toaster is cooking the food");
+    }
 
     
     

@@ -12,6 +12,7 @@ package abstractioninheritancepractice;
 public class Dragon extends LegendaryCreature {
     
     public void eat(){
+        System.out.println("The dragon is eating");
         
     }
     
